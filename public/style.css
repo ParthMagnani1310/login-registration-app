@@ -1,0 +1,74 @@
+
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2ff;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+/* Main container */
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #1e293b;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Input focus effect */
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Divider */
+hr {
+    margin: 25px 0;
+    border: 0;
+    border-top: 1px solid #e2e8f0;
+}
+
+/* Response message */
+#message {
+    text-align: center;
+    overflow-wrap: anywhere;
+    color: #334155;
+}
